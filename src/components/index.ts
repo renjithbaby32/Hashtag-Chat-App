@@ -1,0 +1,10 @@
+export { ChatComponent } from './ChatComponent';
+export { Sidebar } from './Sidebar';
+export { RightSidebar } from './RightSidebar';
+export { ChatFooter } from './ChatFooter';
+export { ChatHeader } from './ChatHeader';
+export { ChatBody } from './ChatBody';
+export { HeaderRightIcons } from './HeaderRightIcons';
+export { Messages } from './Messages';
+export { Message } from './Message';
+export * from './Avatar';

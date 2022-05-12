@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,62 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.chat-body {
+  width: 100%;
+  background-color: #dce4dc;
+  height: 70vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.message-container {
+  width: fit-content;
+}
+
+.message-container.message-right {
+  align-self: flex-end;
+}
+
+.message-container.message-left {
+  align-self: flex-start;
+}
+
+.message {
+  background-color: #fff;
+  border-radius: 2rem !important;
+}
+
+.message-avatar {
+  width: 2rem;
+  height: 2rem !important;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 500 !important;
+}
+
+.online-indicator {
+  position: absolute;
+  bottom: 0.1rem;
+  right: 0.1rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  border-radius: 50%;
+  background: greenyellow;
+}
+
+/* .chat-input-container {
+} */
+
+.chat-input {
+  outline: none;
+  border: none;
+  padding: 1rem !important;
+}
+
+.send-btn {
+  height: 3.5rem !important;
+  width: 4rem !important;
+  border-radius: 50% !important;
 }
